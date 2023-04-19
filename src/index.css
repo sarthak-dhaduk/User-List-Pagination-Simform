@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+select {
+  appearance: none;
+  background: url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png")
+    right 0.9rem center/0.8rem no-repeat;
+}
+
+@media screen and (max-width: 596px) {
+  * {
+    font-size: 12px;
+  }
+}
